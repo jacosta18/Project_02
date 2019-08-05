@@ -13,9 +13,10 @@ sound_factors = {
 def raindrops(number):
     return [sounds for a, sounds in sound_factors.items() if number % a == 0]
 
+
 # .items() method returns all dictionary keys with values.
 
 def convert(number):
     return " ".join(raindrops(number)) or str(number)
 
-# " ".join(raindrops(number)) is a form of concatenation with the elements of a iterable. 
+# " ".join(raindrops(number)) is a form of concatenation with the elements of a iterable.
