@@ -1,37 +1,42 @@
-# First step, lets use dictionaries to assign each factor with a string:
+# Stage 1: Identifying the sounds and factors
 
-# Dict
+# - The following part of the code demonstrates the factors 3, 5, 7 being assigned sounds:
+
 sound_factors = {
         3: "Pling",
         5: "Plang",
         7: "Plong",
 }
 
-# Creating a list of the factors of interest.
-
 factors = (3, 5, 7)
-
-# While loops is introduced to make the fucntion interactive.
 
 while True:
 
-    # Adding an input allows the user to 'Enter a value'
+
     num = int(input("Enter a number here: "))
 
-    # The following function is to confirm whether or not the number can be divided.
+    # Stage 2: Returning True if the divisor is a factor of the number
+
     def divisible (number, divisior):
         return number % divisior == 0
 
-#print(divisible(35,5))
+    #print(divisible(35,5))
 
-    # This function links the variable 'number' to the function above.
-    #
+    # Running the above print statement, Python would return 'True' as 5 is a factor of 35.
+
+    # Stage 3: Return the sound effects assinged to factors.
+
     def raindrops(number):
         return [sound_factors[factors]
                 for factors in factors
                 if divisible(number, factors)]
 
-#print(raindrops(40))
+    #print(raindrops(30))
+
+    # The print statement about would return ['Pling', 'Plang] because factors 3 and 5 are factors of 30.
+    # The ouput is also a string.
+
+    # Stage 4: Return a string by using " ".join().
 
     def convert(number):
         say = raindrops(number)
@@ -50,6 +55,3 @@ while True:
         print("Welcome back!")
 
 
-# num = int(input("Enter a number here: "))
-#
-# print(convert(num))

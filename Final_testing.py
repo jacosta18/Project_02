@@ -6,13 +6,18 @@ sound_factors = {
 
 factors = (3, 5, 7)
 
-def divisible (number, divisior):
-    return number % divisior == 0
+class Raindrops():
 
-def raindrops(number):
-    return [sound_factors[factors]
+    def divisible (number, divisior):
+        return number % divisior == 0
+
+    def raindrops(number):
+        return [sound_factors[factors]
             for factors in factors
             if divisible(number, factors)]
 
-print(raindrops(30))
-print(type(raindrops(30)))
+    def convert(number):
+        say = raindrops(number)
+        return " ".join(say) if say else str(number)
+
+
