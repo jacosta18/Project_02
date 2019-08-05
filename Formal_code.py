@@ -4,19 +4,10 @@ sound_factors = {
         7: "Plong",
 }
 
-factors = (3, 5, 7)
-
-def divisible (number, divisor):
-    return number % divisor == 0
-
 def raindrops(number):
-    return [sound_factors[factors]
-            for factors in factors
-            if divisible(number, factors)]
+    return [sounds for a, sounds in sound_factors.items() if number % a == 0]
 
 def convert(number):
-    say = raindrops(number)
-    return " ".join(say) if say else str(number)
+    return " ".join(raindrops(number)) or str(number)
 
 print(convert(30))
-
