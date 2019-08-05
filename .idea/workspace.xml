@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3b40d52-97f3-4f6b-8339-199969b54adc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Final_testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Formal_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Formal_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introduction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,22 +29,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+            <state relative-caret-position="874">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Formal_code.py">
+        <entry file="file://$PROJECT_DIR$/OOP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="483">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Unit_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -68,15 +59,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Final_testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="240">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OOP.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Formal_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -102,10 +97,10 @@
         <option value="$PROJECT_DIR$/Introduction.py" />
         <option value="$PROJECT_DIR$/Unit_test.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Test5.py" />
-        <option value="$PROJECT_DIR$/Formal_code.py" />
         <option value="$PROJECT_DIR$/Final_testing.py" />
         <option value="$PROJECT_DIR$/oop.py" />
+        <option value="$PROJECT_DIR$/Formal_code.py" />
+        <option value="$PROJECT_DIR$/Test5.py" />
         <option value="$PROJECT_DIR$/OOP.py" />
       </list>
     </option>
@@ -157,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Final_testing">
+  <component name="RunManager" selected="Python.Formal_code">
     <configuration name="Final_testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_practise_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,6 +216,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="OOP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_practise_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OOP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test5" type="PythonConfigurationType" factoryName="Python">
       <module name="Python_practise_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,8 +260,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Final_testing" />
         <item itemvalue="Python.Formal_code" />
+        <item itemvalue="Python.OOP" />
+        <item itemvalue="Python.Final_testing" />
         <item itemvalue="Python.Introduction" />
       </list>
     </recent_temporary>
@@ -358,10 +375,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Final_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Formal_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="874">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -374,23 +412,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Formal_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final_testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
