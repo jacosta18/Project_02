@@ -4,12 +4,11 @@ import formal_code
 while True:
 
     num = int(input("Enter number here: "))
-    #print(convert())
 
     word = input("Would you like to continue? y/n: ")
 
     if word == 'n':
-        print("We look forward to your return")
+        print("We look forward to your return!")
         break
     else:
         print("Okay! Let's go!")

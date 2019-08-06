@@ -20,4 +20,4 @@ def test_02_convert():
 
 def test_03_convert():
     outcome = formal_code.convert(number=34)
-    assert outcome == '34'
+    assert outcome == '40'
