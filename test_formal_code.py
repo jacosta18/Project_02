@@ -23,3 +23,7 @@ def test_02_convert():
 def test_03_convert():
     outcome = formal_code.convert(number=35)
     assert outcome == 'Plong Plang'         #-------> Test failed, it should be 'Plang Plong'
+
+def test_04_convert():
+    outcome = formal_code.convert(number=23568)
+    assert outcome == 'Pling'               #-------> Test passed.
