@@ -2,6 +2,8 @@ import formal_code
 
 # Using pytest, the following will be tested.
 
+# To run Pytest open cmd prompt.
+
 def test_raindrops():
     outcome = formal_code.raindrops(number=30)
     assert outcome == ['Pling', 'Plang']
@@ -19,5 +21,5 @@ def test_02_convert():
     assert outcome == 'Plong'
 
 def test_03_convert():
-    outcome = formal_code.convert(number=34)
-    assert outcome == '40'
+    outcome = formal_code.convert(number=35)
+    assert outcome == 'Plong Plang'         #-------> Test failed, it should be 'Plang Plong'
