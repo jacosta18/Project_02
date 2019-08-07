@@ -1,5 +1,7 @@
 import formal_code
 
+# To run the App, run 'app.py' (ctrl shift f10) and follow the steps in the output section.
+
 sound_factors = {
         3: "Pling",
         5: "Plang",
@@ -20,7 +22,7 @@ while True:
 
     word = input("Would you like to continue? y/n: ")
 
-    if word.lower() == 'n':
+    if word.lower() == 'n':         # -----------------> If input is 'n' or 'N', the app ends.
 
         print("We look forward to your return!")
 
