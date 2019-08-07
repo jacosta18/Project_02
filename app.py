@@ -14,7 +14,7 @@ while True:
         return [sounds for a, sounds in sound_factors.items() if number % a == 0]
 
     def convert(number):
-        return " ".join(raindrops(number)) or str(number)
+        return "".join(raindrops(number)) or str(number)
 
     num = int(input("Enter number here: "))
 
