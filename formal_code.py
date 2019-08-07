@@ -11,7 +11,7 @@ sound_factors = {
 #  Return the sound effects assigned to factors.
 
 def raindrops(number):
-    return [sounds for a, sounds in sound_factors.items(). if number % a == 0]
+    return [sounds for a, sounds in sound_factors.items() if number % a == 0]
 
 # .items() method returns all dictionary keys with values.
 

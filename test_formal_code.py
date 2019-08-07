@@ -15,7 +15,7 @@ def test_raindrops():
 
 def test_convert():
     outcome = formal_code.convert(number=30)
-    assert outcome == 'Pling Plang'
+    assert outcome == 'PlingPlang'
 
 def test_02_convert():
     outcome = formal_code.convert(number=28)
@@ -29,13 +29,17 @@ def test_03_convert():
     outcome = formal_code.convert(number=28)
     assert outcome == 'Plong'
 
+def test_03_convert():
+    outcome = formal_code.convert(number=43)
+    assert outcome == '43'
+
 def test_02_convert():
     outcome = formal_code.convert(number=21)
-    assert outcome == 'Pling Plong'
+    assert outcome == 'PlingPlong'
 
 def test_04_convert():
     outcome = formal_code.convert(number=35)
-    assert outcome == 'Plong Plang'         #-------> Test failed, it should be 'Plang Plong'
+    assert outcome == 'PlongPlang'         #-------> Test failed, it should be 'Plang Plong'
 
 def test_05_convert():
     outcome = formal_code.convert(number=23568)
